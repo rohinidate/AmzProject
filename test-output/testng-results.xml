@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-15T20:20:24 IST" name="Suite" finished-at="2026-10-15T20:21:00 IST" duration-ms="35818">
+    <groups>
+    </groups>
+    <test started-at="2026-10-15T20:20:24 IST" name="Test" finished-at="2026-10-15T20:21:00 IST" duration-ms="35818">
+      <class name="amazontest.AmzProject.TestCase1_LoginToAmazon">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazontest.AmzProject.TestCase1_LoginToAmazon@3eb25e1a]" started-at="2026-10-15T20:20:47 IST" name="launch" finished-at="2026-10-15T20:20:49 IST" duration-ms="2122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="withValidCredentails()[pri:0, instance:amazontest.AmzProject.TestCase1_LoginToAmazon@3eb25e1a]" started-at="2026-10-15T20:20:49 IST" name="withValidCredentails" finished-at="2026-10-15T20:20:56 IST" duration-ms="6756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withValidCredentails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazontest.AmzProject.TestCase1_LoginToAmazon@3eb25e1a]" started-at="2026-10-15T20:20:56 IST" name="quit" finished-at="2026-10-15T20:21:00 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazontest.AmzProject.TestCase1_LoginToAmazon -->
+      <class name="amazontest.AmzProject.TestCase2_LoginToAmazonandLogout">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:amazontest.AmzProject.TestCase2_LoginToAmazonandLogout@765d7657]" started-at="2026-10-15T20:20:24 IST" name="launch" finished-at="2026-10-15T20:20:32 IST" duration-ms="7561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="withValidCredentailsandLogout()[pri:0, instance:amazontest.AmzProject.TestCase2_LoginToAmazonandLogout@765d7657]" started-at="2026-10-15T20:20:32 IST" name="withValidCredentailsandLogout" finished-at="2026-10-15T20:20:43 IST" duration-ms="11550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withValidCredentailsandLogout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:amazontest.AmzProject.TestCase2_LoginToAmazonandLogout@765d7657]" started-at="2026-10-15T20:20:43 IST" name="quit" finished-at="2026-10-15T20:20:47 IST" duration-ms="3215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- amazontest.AmzProject.TestCase2_LoginToAmazonandLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
